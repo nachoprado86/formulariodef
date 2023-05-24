@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h1>El club viejuner.</h1></legend>
+
+      <form action="">
+        <h2>Tú:</h2>
+
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input name="nombre" id="nombre" placeholder="Nombre" type="text" />
+        </div>
+
+        <div>
+          <label for="apellidos">Apellidos:</label>
+          <input
+            name="apellidos"
+            id="apellidos"
+            placeholder="apellidos"
+            type="text"
+          />
+        </div>
+
+        <div>
+          <label for="edad">Años:</label>
+          <input
+            min="18"
+            max="100"
+            step="1"
+            name="edad"
+            id="edad"
+            placeholder="edad"
+            type="number"
+          />
+        </div>
+
+        <div>
+          <label>Sexo:</label><br />
+          <input type="radio" name="Sexo" />Hombre <br />
+          <input type="radio" name="Sexo" />Mujer <br />
+          <input type="radio" name="Sexo" />Indeterminado <br />
+        </div>
+
+        <div>Me siento viejuner <input type="checkbox" /></div>
+
+        <div>
+          Escribe algo sobre tí: <br />
+          <textarea
+            placeholder="Texto"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <h2>Tus circustancias:</h2>
+        <div>
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" />
+        </div>
+
+        <div>
+          <label for="tel">Teléfono:</label>
+          <input placeholder="Ej: 34 600 444 888" pattern="11" type="tel" />
+        </div>
+
+        <input value="reset" type="reset" />
+        <input value="enviar" type="submit" />
+      </form>
+    </fieldset>
+    <fieldset>
+      <legend><h1>Los Landronzuelos de Biciletas.</h1></legend>
+      <form action="">
+        <div>
+          <label for="date">Día:</label>
+          <input type="date" />
+        </div>
+        <div>
+          <label for="time">Hora:</label>
+          <input type="time" />
+        </div>
+
+        <div>
+          <label for="color">Color de la Bicicleta:</label>
+          <input type="color" />
+        </div>
+
+<div>
+    <label for="range">Rango de Precio (entre 0€ y 1.000€):</label>
+    <input id="vol" name="vol" value="1.000€" min="0€" max="1.000€" type="range">
+    <output for="vol">1.000€  </output>
+</div>
+<div>
+    <ul>Tipo de Biciletas:
+    <div><li>
+<label for="paseo">Paseo</label>
+<select name="paseo" id="paseo">
+    <option value="señorial">Señorial</option>
+    <option value="anti-plebeyos">Anti-plebeyos</option>
+    <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+</li>
+</div>
+<div>
+<li>
+<label for="montana">Montaña</label>
+<select name="montana" id="montana">
+    <option value="Gamusinos">Gamusinos</option>
+    <option value="Hueleflores premiun">Hueleflores premiun</option>
+    <option value="Fango lover">Fango lover</option>
+</li>
+</div>
+<li>
+    <label for="carreras">Carreras</label>
+    <select name="carreras" id="carreras"></select>
+    <option value="metroymedio">Metroymedio</option>
+    <option value="3 de la tarde Fluorescente edition">3 de la tarde. Fluorescente edition</option>
+    <option value="Grupitors">Grupitors</option>
+</li>
+</select>
+</ul>
+</div>
+
+
+        <div>
+          <input value="reset" type="reset" />
+          <input value="enviar" type="submit" />
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
